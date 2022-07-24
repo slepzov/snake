@@ -1,8 +1,9 @@
 # Подключение модулей
 import pygame
 from random import randrange
+
 # Константы
-WINDOW_SIZE = WINDOW_WIDTH, WINDOW_HEIGHT = (300,300)
+WINDOW_SIZE = WINDOW_WIDTH, WINDOW_HEIGHT = (300, 300)
 OBJECT_SIZE = 10
 # Переменные и инициализация
 pygame.init()
@@ -15,7 +16,7 @@ dx, dy = 0, 0
 fps = 2
 apple = randrange(0, WINDOW_WIDTH, OBJECT_SIZE), randrange(0, WINDOW_HEIGHT, OBJECT_SIZE)
 # Словарь движения
-traffic_dict = {"W": (0, -1), "S": (0,1), "A": (-1,0), "D": (1,0)}
+traffic_dict = {"W": (0, -1), "S": (0, 1), "A": (-1, 0), "D": (1, 0)}
 # Цикл программы
 while True:
     # Показ экрана и закраска его в черный цвет
