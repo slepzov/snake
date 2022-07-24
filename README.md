@@ -6,6 +6,6 @@
 
 Управление змейкой осуществляется клавишами 'W', 'S', 'A', 'D'.
 
-![Alt text]([https://github.com/weiman152/StarsView/blob/master/ScreenShots/1.png](https://github.com/slepzov/snake/blob/main/ScreenShots/screen.jpg?raw=true))
+![Image text](https://raw.githubusercontent.com/slepzov/snake/main/ScreenShots/screen.jpg)
 
 
